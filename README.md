@@ -2,7 +2,7 @@
 
 Making predictions using a dataset from [Kaggle]https://www.kaggle.com/nareshbhat/health-care-data-set-on-heart-attack-possibility on patient heart data to determine cardiovascular events and to find any clear indications of heart health.
 
-![Credit: favpng.com]https://favpng.com/(broken_heart.jpg)
+![Credit: favpng.com]https://favpng.com/(broken_heart.png)
 
 ## Introduction
 After a disaster has occurred millions of communications are exchanged right at the time that disaster response organizations have the least capacity to categorize important messages to let relevant organizations know who needs help.
@@ -114,5 +114,5 @@ Install the files into a folder on your computer
 
 ### Licensing, Authors, Acknowledgements
 
-The data files were retrieved from www.figure-eight.com. 
-Thanks to my mentors at [Udacity]https://www.udacity.com/ for helping me to understand my results.
+The data files were retrieved from [Kaggle]https://www.kaggle.com/nareshbhat/health-care-data-set-on-heart-attack-possibility.
+Thanks to my mentors at [Udacity]https://www.udacity.com/ for supporting this project.
