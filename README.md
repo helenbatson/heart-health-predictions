@@ -1,15 +1,41 @@
 # Heart Health Predictions
 
+Table of Contents
+1. [ Introdcution. ](#intro)
+2. [ Implementation. ](#implem)
+
+
 Using a dataset from Kaggle predictions have been made on patient heart data to determine cardiovascular events and to find any clear indications of heart health.
 
 ![Credit: favpng.com](broken_heart.png)
 
-## Introduction
+<a name="intro"></a>
+## 1. Introduction
+classified if patients have heart disease or not according to features in it. We will try to use this data to create a model which tries predict if a patient has this disease or not. We will use logistic regression (classification) algorithm.
+
 After a disaster has occurred millions of communications are exchanged right at the time that disaster response organizations have the least capacity to categorize important messages to let relevant organizations know who needs help.
 Different organizations would generally take care of specific parts of the problem, like water, medical supplies, blocked roads. These are some of the categories that Figure Eight has pulled out of the data.
 The expectation is that this project could be used in future disaster relief projects to benefit people affected during hard times.
 
 Supervised machine learning is used and is more accurate than a person performing keyword searches, which is an issue in disaster relief. The data has been repaired with an ETL pipeline and then a machine learning pipeline has been used to build a supervised learning model.
+
+## The Data
+The columns and their descriptions are as follows:
+
+age - age in years
+sex - (1 = male; 0 = female)
+cp - chest pain type
+trestbps - resting blood pressure (in mm Hg on admission to the hospital)
+chol - serum cholestoral in mg/dl
+fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+restecg - resting electrocardiographic results
+thalach - maximum heart rate achieved
+exang - exercise induced angina (1 = yes; 0 = no)
+oldpeak - ST depression induced by exercise relative to rest
+slope - the slope of the peak exercise ST segment
+ca - number of major vessels (0-3) colored by flourosopy
+thal - 3 = normal; 6 = fixed defect; 7 = reversable defect
+target - have disease or not (1=yes, 0=no)
 
 ## Questions
 Can the data be analyzed to divide messages so that the right organizations would be of most help to the people who need it?
@@ -53,7 +79,8 @@ This may be expected due to the number of messages/tokens versus variables, thou
 
 ------------------------------------------------------------------------------------------------------------------
 
-# Implementation
+<a name="implem"></a>
+## 2. Implementation
 ## Technical Information
 
 ##### Pip Install
